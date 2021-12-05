@@ -1,0 +1,930 @@
+/* ここから下に記載していく */
+
+/* id記載 ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー*/
+
+#wrap {
+    margin:0 auto;
+    width: 1200px;
+    }
+
+#mainimg {
+        width:1200px;
+        height:300px;
+        }
+
+#contents {
+         width:1200px;
+        float:left;
+            }
+
+footer {
+        clear:both;
+        height:80px;
+        text-align:center;
+        font-size:0.85em;
+         }
+
+    a { text-decoration:none;
+        color: #000;       
+     }      
+
+/* 上id記載ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+
+/* 段落1 */ 
+.pg1 img{
+        }
+
+.pg1 {
+    position: relative;
+    width: 1200px; /* 任意 */
+    height: auto; /* 任意 */
+    background-color:white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    }
+
+    .pg11 {
+        background-color: white;
+        position: absolute;
+        left: 600px;
+        top: 50px;
+        }
+
+    .pg11 h1{
+        display: inline-block;
+        color: #000;
+        font-size: 100%;
+        font-weight: bold;
+        text-decoration: none;
+        }
+
+        .pg11a{
+            margin-right: 50px;
+        }
+        .pg11b{
+            margin-right: 50px;
+        }
+        .pg11c{
+            margin-right: 50px;
+        }
+        .pg11d{
+            margin-right: 50px;
+        }
+        .pg11e{
+            margin-right: 50px;
+        }
+
+
+/* 段落2 */   
+
+/* 段落2 */   
+
+    .pg2 {
+        background-image: url(mainbg.png);
+    }
+
+
+    .pg2 {
+        text-align:  center;   
+        padding:  100px;      
+    }
+
+    .pg21 {
+        display:  inline-block;            
+        padding-top: 20px;
+        padding-bottom: 20px;            
+    }
+
+    .pg21aa {
+        text-align: center;
+        color: white; 
+        padding-top: 20px;
+        padding-bottom: 20px;            
+        font-size: 50px;
+        }
+    
+    .pg21ab {
+        text-align: center;
+        color:white; 
+        padding-top: 20px;
+        padding-bottom: 20px;            
+        font-size: 30px;
+        }
+
+/* 段落3 */  
+
+.pg3{
+    background-color:white; 
+    text-align: center;
+    margin-top: 100px;
+    }
+
+    .pg31  h1{
+        padding-top: 60px;
+        padding-bottom: 30px;
+        text-align: center;
+        color:#ffd61a;
+        font-size: 24px;
+        font-weight: bold;
+        text-decoration: none;
+　      }
+
+    .pg32 h2 {
+        background-color: white; 
+        text-align: center;
+        padding-bottom: 60px;
+        font-size: 18px;
+        font-weight: bold;
+        text-decoration: none;
+        }   
+    .pg32 p{
+        background-color:white; 
+        font-size: 18px;
+        font-weight: bold;
+        text-decoration: none;
+        }
+        
+    .pg32ab {
+        text-align: center;
+        margin-bottom: 60px;
+        }   
+    .pg32ac {
+        text-align: center;
+        margin-bottom: 10px;
+        }   
+    .pg32ad {
+        text-align: center;
+        margin-bottom: 40px;
+        }   
+    .pg32ae {
+        text-align: center;
+        margin-bottom: 40px;
+        }   
+    .pg32af {
+        text-align: center;
+        margin-bottom: 10px;
+        }   
+    .pg32ag {
+        text-align: center;
+        margin-bottom: 80px;
+        }   
+
+/* 段落4 */  
+
+.pg4{
+    text-align: center;
+    background-color: white; 
+}
+
+    .pg41 img {
+        background-color: white; 
+        }
+
+    .pg41 {
+        position: relative;
+        overflow: hidden;
+        width: 800px;
+        height: 560px;  /*10:7*/
+        margin: auto;
+        background:white;
+        }
+    .pg41 img {
+        display: block;
+        position: absolute;
+        width: inherit;
+        height: inherit;
+        left: 100%;
+        animation: slide-anime 12s ease infinite;
+        }
+        .pg41 img:nth-of-type(1) {animation-delay: 0s;}
+        .pg41 img:nth-of-type(2) {animation-delay: 3s;}
+        .pg41 img:nth-of-type(3) {animation-delay: 6s;}
+        .pg41 img:nth-of-type(4) {animation-delay: 9s;}
+   
+          @keyframes slide-anime{
+        0% {left: 100%;}
+        2% {left: 0;}
+        18% {left: 0;}
+        20% {left: -100%;}
+        100% {left: -100%;}
+        }
+
+/* 段落5 */  
+
+.pg5 {
+    background-color: white; 
+    text-align: center;
+    }
+
+
+    .pg5 h1{
+        padding-top: 60px;
+        padding-bottom: 30px;
+        text-align: center;
+        background-color: white; 
+        color:#ffd61a;
+        font-size: 24px;
+        font-weight: bold;
+        text-decoration: none;
+    　  }
+    
+
+    .pg5 p{
+        margin: auto;
+        background-color: white; 
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+        text-decoration: none;
+        }
+
+    .pg5ab {
+        padding-bottom: 10px;
+        }
+    .pg5ac {
+        padding-bottom: 60px;
+        }
+
+
+/* 段落6 */  
+
+.pg6{
+    background-color:  rgb(86, 90, 89); 
+    position: relative;
+    }
+
+    .pg61{
+        background-color: rgb(240, 245, 228); 
+    }
+
+
+    .pg61 img{
+        width: 600px;/*10:7*/
+        height: 450px;
+        }
+
+    .pg62{
+        background-color: rgb(240, 245, 228); 
+        padding-top: 120px;
+        padding-bottom: 60px;
+        position: absolute;
+        width: 600px;
+        height: 300px;
+        right: 0px;
+        top: 0px;
+    }
+
+    .pg62aa{
+        width: 480px;
+        background-color:  rgb(240, 245, 228); 
+        padding-bottom: 40px;     
+        padding-left: 50px;
+        font-size: 24px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    .pg62 p{
+        width: 480px;
+        background-color:  rgb(240, 245, 228); 
+        padding-bottom: 10px;
+        padding-left: 50px;
+        font-size: 16px;
+        font-weight: bold;
+        text-decoration: none;
+        }
+        .pg62ab {
+            padding-bottom: 10px;
+            }
+        .pg62ac {
+            padding-bottom: 10px;
+            }
+        .pg62ad {
+            padding-bottom: 10px;
+        }
+        .pg62ae {
+            padding-bottom: 10px;
+            }
+        .pg62af {
+            padding-bottom: 120px;
+            }
+
+/* 下に120pxの余白がない、paddingが適用されないため、画像サイズを420⇒450に変更 */
+
+
+/* 段落7 */  
+/* おかしい */
+.pg7{
+    background-color:  rgb(86, 90, 89); 
+    position: relative;
+    }
+
+    .pg71{
+        background-color: rgb(240, 245, 228); 
+    }
+
+
+    .pg71 img{
+        width: 600px;/*10:7*/
+        height: 450px;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        }
+
+    .pg72{
+        background-color: rgb(240, 245, 228); 
+        padding-top: 120px;
+        width: 600px;
+        height: 320px;
+    }
+
+    .pg72aa{
+        width: 480px;
+        background-color:  rgb(240, 245, 228); 
+        padding-bottom: 40px;     
+        padding-left: 120px;
+        text-align: left;
+        font-size: 24px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    .pg72 p{
+        width: 480px;
+        background-color:  rgb(240, 245, 228); 
+        padding-bottom: 10px;
+        padding-left: 120px;
+        text-align: left;
+        font-size: 16px;
+        font-weight: bold;
+        text-decoration: none;
+        }
+        .pg72ab {
+            padding-bottom: 10px;
+            }
+        .pg72ac {
+            padding-bottom: 10px;
+            }
+        .pg72ad {
+            padding-bottom: 10px;
+        }
+        .pg72ae {
+            padding-bottom: 10px;
+            }
+        .pg72af {
+            padding-bottom: 120px;
+            }
+
+
+/* 段落8 */  
+
+.pg8{
+    background-color:  rgb(86, 90, 89); 
+    position: relative;
+    }
+
+    .pg81{
+        background-color: rgb(240, 245, 228); 
+    }
+
+
+    .pg81 img{
+        width: 600px;/*10:7*/
+        height: 450px;
+        }
+
+    .pg82{
+        background-color: rgb(240, 245, 228); 
+        padding-top: 120px;
+        padding-bottom: 60px;
+        position: absolute;
+        width: 600px;
+        height: 270px;
+        right: 0px;
+        top: 0px;
+    }
+
+    .pg82aa{
+        width: 480px;
+        background-color:  rgb(240, 245, 228); 
+        padding-bottom: 40px;     
+        padding-left: 50px;
+        font-size: 24px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    .pg82 p{
+        width: 480px;
+        background-color:  rgb(240, 245, 228); 
+        padding-bottom: 10px;
+        padding-left: 50px;
+        font-size: 16px;
+        font-weight: bold;
+        text-decoration: none;
+        }
+        .pg82ab {
+            padding-bottom: 10px;
+            }
+        .pg82ac {
+            padding-bottom: 10px;
+            }
+        .pg82ad {
+            padding-bottom: 10px;
+        }
+        .pg82ae {
+            padding-bottom: 10px;
+            }
+        .pg82af {
+            padding-bottom: 120px;
+            }
+
+/* 段落9 */  
+.pg9 {
+    background-color: white; 
+    text-align: center;
+    padding-top: 60px;
+    position: relative;
+    height: 514px;
+    }
+
+    .pg9 h1{
+        padding-bottom: 30px;
+        text-align: center;
+        background-color: white; 
+        color:#ffd61a;
+        font-size: 24px;
+        font-weight: bold;
+        text-decoration: none;
+    　     }
+
+    .pg9 h2{
+        text-align: center;
+        background-color: white; 
+        color:black;
+        font-size: 18px;
+        font-weight: bold;
+        text-decoration: none;
+    　     }
+
+    .pg92:hover{
+        color: #FF0000;
+        font-size: 20px;
+        font-weight: bold; 
+    }
+
+    .pg92 img{
+        width: 300px;
+        height: auto;
+    }
+    
+    .pg92 {
+        background-color:white; 
+        text-align: center;
+        padding-top: 60px;
+        position: absolute;
+        width: 300px;
+        height: auto;
+        margin-left: 120px;
+        margin-right: 15px;
+        }
+    
+    .pg92 h2{
+        font-size: 16px;
+        font-weight: bold;
+        text-decoration: none;
+        padding-top: 30px;
+        padding-bottom: 24px;
+    }
+
+    
+    .pg92 p{
+        font-size: 13px;
+        font-weight: bold;
+        text-decoration: none;
+        }
+    .pg92ab {
+        padding-bottom: 5px;
+    }
+
+    .pg92ac {
+        padding-bottom: 5px;
+    }
+
+    .pg92ad {
+        padding-bottom: 60px;
+    }
+
+
+    .pg93 {
+        background-color: white; 
+        text-align: center;
+        padding-top: 60px;
+        position: absolute;
+        left: 435px;
+        width: 300px;
+        height: auto;
+        margin-left: 15px;
+        margin-right: 15px;
+        }
+
+    .pg93:hover{
+        color: #FF0000;
+        font-size: 20px;
+        font-weight: bold; 
+    }
+
+    .pg93 h2{
+        font-size: 16px;
+        font-weight: bold;
+        text-decoration: none;
+        padding-top: 30px;
+        padding-bottom: 24px;
+        }
+    
+    .pg93 p{
+        font-size: 13px;
+        font-weight: bold;
+        text-decoration: none;
+        }
+    
+        .pg93ab {
+            padding-bottom: 5px;
+        }
+
+        .pg93ac {
+            padding-bottom: 5px;
+        }
+
+        .pg93ad {
+            padding-bottom: 60px;
+        }
+
+
+    .pg94 {
+        background-color:white; 
+        text-align: center;
+        padding-top: 60px;
+        position: absolute;
+        left: 765px;
+        width: 300px;
+        height: auto;
+        margin-left: 15px;
+        margin-right: 120px;
+        }
+
+    .pg94:hover{
+        color: #FF0000;
+        font-size: 20px;
+        font-weight: bold; 
+    }
+
+             
+        .pg94 h2{
+            font-size: 16px;
+            font-weight: bold;
+            text-decoration: none;
+            padding-top: 30px;
+            padding-bottom: 24px;
+         
+            }
+        
+        .pg94 p{
+            background-color:white; 
+            font-size: 13px;
+            font-weight: bold;
+            text-decoration: none;
+            }
+            .pg94ab {
+                padding-bottom: 5px;
+            }
+    
+            .pg94ac {
+                padding-bottom: 5px;
+            }
+    
+            .pg94ad {
+                padding-bottom: 60px;
+            }
+    
+    .pg95 h1{
+        text-align: center;
+        background-color:rgb(247, 247, 18); 
+        font-size: 24px;
+        font-weight: bold;
+        text-decoration: none;
+        margin-left: 500px;
+        margin-right: 500px;
+        }
+
+/* 段落10 */  
+
+
+.pg010 {
+    background-color:white; 
+    text-align: center;
+    padding-top: 120px;
+    position: relative;
+    width: 1200px;
+    height: 873.5px;
+    }
+
+    .pg0103 {
+        background-color:white; 
+        text-align: center;
+        padding-top: 60px;
+        position: absolute;
+        width: 575px;/*文字間隔*/
+        height: auto;
+        text-align: right;
+        }
+
+    .pg0104 {
+        background-color:white; 
+        text-align: center;
+        padding-top: 60px;
+        position: absolute;
+        left: 625px;
+        width: 550px;/*文字間隔*/
+        height: auto;
+        text-align: left;
+        }
+
+
+    .pg010 h1{
+        padding-bottom: 30px;
+        font-size: 24px;
+        font-weight: bold;
+        text-decoration: none;  
+    }
+    .pg010 h2{
+        padding-bottom: 30px;
+    }
+
+
+    .pg0103aa{
+        padding-bottom: 30px;
+    }
+    .pg0103ab{
+        padding-bottom: 30px;
+    }
+    .pg0103ac{
+        padding-bottom: 30px;
+    }
+    .pg0103ad{
+        padding-bottom: 30px;
+    }
+    .pg0103ae{
+        padding-bottom: 60px;
+    }
+
+    .pg0104aa{
+        padding-bottom: 30px;
+    }
+    .pg0104ab{
+        padding-bottom: 30px;
+    }
+    .pg0104ac{
+        padding-bottom: 30px;
+    }
+    .pg0104ad{
+        padding-bottom: 30px;
+    }
+    .pg0104ae{
+        padding-bottom: 60px;
+    }
+
+
+    /* ーーーーーーーーーーーーーーーー段落11ーーーーーーーーーーーーーーーーーーー */
+
+
+.pg011 {
+    background-color: white; 
+    text-align: center;
+    }
+    
+    
+    .pg0111 h1{
+        padding-top: 60px;
+        padding-bottom: 30px;
+        text-align: center;
+        background-color: white; 
+        color:#ffd61a;
+        font-size: 24px;
+        font-weight: bold;
+        text-decoration: none;
+    　  }
+        
+    
+    .pg0112 p{
+        margin: auto;
+        background-color: white; 
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+        text-decoration: none;
+        }
+    
+        .pg0112aa{
+            padding-bottom: 30px;
+        }
+        .pg0112ab {
+            padding-bottom: 10px;
+            }
+        .pg0112ac {
+            padding-bottom: 30px;
+            }
+        .pg0112ad {
+            padding-bottom: 10px;
+            }
+        .pg0112ae {
+            padding-bottom: 70px;
+            }
+
+/* ーーーーーーーーーーーーーーーー段落12ーーーーーーーーーーーーーーーーーーー */
+
+/*
+
+
+/* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+
+.pg012 {
+    background-color:white; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    }
+
+    input[type="text"],input[type="email"]{
+        border: solid 1px rgb(8, 8, 8);
+        border-radius:5px;
+        font-size: 15px;
+        margin-top: 15px;
+        margin-left: 20px;
+        margin-bottom: 15px;
+        width:400px;  
+        height: 30px;
+    }
+    select{
+        display: inline-block;
+        margin-left: 20px;
+        margin-top: 15px; 
+        margin-bottom: 15px;
+        width:400px;
+        height: 30px;
+        }
+    
+    
+table{
+  text-align: left;
+  table-layout: auto;
+  width: 800px;
+}
+
+table, td, th { 
+    border-top: 2px #bebdbd solid; 
+    border-bottom:  2px #bebdbd solid;
+}
+
+
+.td1-1{
+    width: 300px;
+    margin-right: 64px;
+    padding-left: 20px;
+    border-right: 2px #bebdbd solid;
+}
+
+.td2-1{
+    width: 300px;
+    margin-right: 64px;
+    padding-left: 20px;
+    border-right: 2px #bebdbd solid;
+}
+
+.td3-1{
+    width: 300px;
+    margin-right: 64px;
+    padding-left: 20px;
+    border-right: 2px #bebdbd solid;
+}
+
+.td4-1{
+    width: 300px;
+    margin-right: 64px;
+    padding-left: 20px;
+    border-right: 2px #bebdbd solid;
+}
+
+.td5-1{
+    width: 300px;
+    margin-right: 64px;
+    padding-left: 20px;
+    border-right: 2px #bebdbd solid;
+}
+
+.td6-1{
+    width: 300px;
+    margin-right: 64px;
+    padding-left: 20px;
+    border-right: 2px #bebdbd solid;
+}
+
+
+
+
+.reason1{
+    display: block;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 24px;
+    margin-left: 20px;
+    }
+.reason2{
+    display: block;
+    font-size: 15px;
+    margin-bottom: 24px;
+    margin-left: 20px;
+    }
+
+.reason3{
+    display: block;
+    font-size: 15px;
+    margin-bottom: 24px;
+    margin-left: 20px;    
+}
+.reason4{
+    display: block;
+    font-size: 15px;
+    margin-bottom: 24px;
+    margin-left: 20px;
+    }
+    
+
+
+
+  textarea {
+    border: solid 1px rgb(8, 8, 8);
+    border-radius:5px;
+        width: 400px; 
+        height: 150px;
+        margin-left: 20px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        vertical-align: -150px;
+      }
+
+
+/* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+
+form{
+    background-color:white; 
+    text-align: center;
+}
+input[type="submit"]{
+    border: solid 1px rgb(8, 8, 8);
+    border-radius:5px;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 60px;
+    width:200px;  
+    height: 30px;
+}
+
+
+
+
+
+
+/* ーーーーーーーーーーーーーーーー段落13ーーーーーーーーーーーーーーーーーーー */
+
+.footer h1 {
+    background-color: #707070; 
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 15px;
+    }
+
+
+
+
+
+
+            
+          
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
